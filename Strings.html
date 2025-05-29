@@ -1,0 +1,49 @@
+<!--
+FileName: Forms.html
+Date: 04/21/2025
+Author: Sarah Holt 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Sarah Holt">
+        <meta name="date"   content="......... 04/14/2025">
+        <meta name="description" content="..JavaScript Forms">
+        <meta charset="UTF-8">
+        <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+        <title> The Sarah Holt Project </title>
+        <script src="modernizr.custom.65897.js"></script>
+             
+        <link rel="stylesheet" media="screen" href="CSP.css">
+        
+        <script src="CSP.js"></script>
+    </head>
+    <body>
+        <!--Optional wrapper/container-->
+        <div class="container">
+            <header>
+            </header>
+            <nav>
+            </nav>
+            <main>
+                <article>
+                    <h2>Guessing Game</h2>
+                    <form id="guessingGame">
+                        <label for="mystery">Mystery Word:</label><br>
+                        <input type="text" id="mystery" name="mystery" value="*****" readonly><br>
+                        <label for="letterBox">Enter a letter and click the Submit Letter button.</label><br>
+                        <input id="letterBox" name="lBox" type="text" tabindex="1" />
+                        <input type="submit" id="buttonSubmitGuess" name="buttonSubmitGuess" value="Submit Letter" />
+                     </fieldset>
+                    </form>
+                    <p class="statement">
+                        The mystery words for this project are: <strong>pizza, ball, game </strong>
+                 </article>
+            </main>
+            <footer>
+            </footer>
+            <!---End of optional wrapper/container-->
+        </div>
+        <script src="strings.js"></script>
+    </body>
+</html>

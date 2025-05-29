@@ -1,0 +1,53 @@
+<!--
+FileName: AJAX.html
+Date: 05/09/2025
+Author: Sarah Holt 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Sarah Holt">
+        <meta name="date"   content="......... 04/14/2025">
+        <meta name="description" content="..JavaScript Forms">
+        <meta charset="UTF-8">
+        <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+        <title> The Sarah Holt Project </title>
+        <script src="modernizr.custom.65897.js"></script>            
+        <link rel="stylesheet" href="AJAX.css">
+        <link rel="stylesheet" href="CSP.css">
+        <script src="AJAX.js"></script>
+        <script src="CSP.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+    </head>
+    <body>
+        <!--Optional wrapper/container-->
+        <div class="container">
+            <header>
+            </header>
+            <nav>
+            </nav>
+            <main>
+                <h6>Video Game Search</h6> 
+                <p>Use this form to retrieve information from: RAWG Website </p>   
+                <label for="gameInput">Enter the name of a game: </label>
+                <input type="text" id="gameInput" placeholder="e.g., Mario kart">
+                <button id="searchBtn">Search</button>
+
+                <div id="result"></div>
+                <section>
+                    <p><strong>Source:</strong> RAWG Video Games Database</p>
+                    <p><strong>URL:</strong><a href="https://rawg.io/apidocs">https://rawg.io/apidocs</a></p>
+                    <p><strong>Data retrieved:</strong>Game name, release date, rating, platforms</p>
+                    <p><strong>Format of the data:</strong>JSON</p>
+                    <p><strong>Proxy Requried:</strong>No</p>
+                </section>
+            </main>
+            <footer>
+            </footer>
+            <!---End of optional wrapper/container-->
+        </div>
+    </body>
+</html>
